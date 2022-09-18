@@ -1,0 +1,56 @@
+//#line "whnet.c" 360
+extern void debugout(char *fmt,... );
+//#line "whnet.c" 374
+extern void netcheckargs(int argc,char *argv[]);
+//#line "whnet.c" 429
+extern int netattacking(short p);
+//#line "whnet.c" 440
+extern void netsendpck(struct netpck *p,unsigned int dnode);
+//#line "whnet.c" 509
+extern short netchecktouchflag(struct player *plr);
+//#line "whnet.c" 551
+extern void netmarkflag(short i);
+//#line "whnet.c" 590
+extern void moveflag(long x,long y,long z,long teamno);
+//#line "whnet.c" 607
+extern void sendmyinfo(unsigned int dnode,short forcesend);
+//#line "whnet.c" 806
+extern void netjoingame(void );
+//#line "whnet.c" 875
+extern void netsendmove(void );
+//#line "whnet.c" 911
+extern void netshootgun(short s,char guntype);
+//#line "whnet.c" 933
+extern void netdamageactor(short s,short o);
+//#line "whnet.c" 964
+extern void nethitsprite(short p,char guntype,char taghit);
+//#line "whnet.c" 1215
+extern void spawnflag(long x,long y,long z,long teamno);
+//#line "whnet.c" 1236
+extern void dropflagstart(short teamno);
+//#line "whnet.c" 1248
+extern void netdropflag(void );
+//#line "whnet.c" 1257
+extern void wongamescreen(short p);
+//#line "whnet.c" 1383
+extern char *IPXadrstr(struct _tagIPX_INTERNET_ADDR *p);
+//#line "whnet.c" 1405
+extern void netgetmove(void );
+//#line "whnet.c" 1829
+extern void netpickmonster(void );
+//#line "whnet.c" 2075
+extern void mdmreadsettings(void );
+//#line "whnet.c" 2118
+extern void initmulti(int numplayers);
+//#line "whnet.c" 2233
+extern void dropDTR(void );
+//#line "whnet.c" 2239
+extern void netshutdown(void );
+//#line "whnet.c" 2274
+extern void whnetmon(void );
+//#line "whnet.c" 2386
+extern void netrestartplayer(struct player *plr);
+//#line "whnet.c" 2397
+extern void netkillme(void );
+//#line "whnet.c" 2405
+extern void netreviveme(void );

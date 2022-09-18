@@ -1,0 +1,45 @@
+
+        Witchaven II V2.0a changes
+        =========================
+
+        * Some cheats removed.
+
+        * New cheats added: INTRACORP, SCAREME, SPIKEME, EXPERIENCE
+
+        Witchaven II V2.0b changes
+        ==========================
+
+        * CD-ROM is detected properly under Windows '95 now
+
+        * New Game resets player's health, weapons, etc. correctly
+
+        * Music plays on custom levels
+
+        * Cheat KILLALL removed
+
+        Witchaven II V2.0c changes
+        ==========================
+
+        * MPath code removed to fix crash bug in modem play
+
+        Witchaven II V2.0d changes
+        ==========================
+
+        * When playing a multiplayer game it now kills you when you quit
+
+        Witchaven II V2.0e changes
+        ==========================
+
+        * Non-existant version
+
+        Witchaven II V2.0f changes
+        ==========================
+
+        * VFX1 patch - cyberpuck config is read from CONTROLS.CFG file.
+
+        Witchaven II V2.0g changes
+        ==========================
+
+        * Fixed strafe left/right key bug
+        * Fixed right CTRL/ALT key bug
+

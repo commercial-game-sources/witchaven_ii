@@ -1,0 +1,40 @@
+//#line "profile.c" 80
+extern int __cdecl hmiINIOpen(struct _tagINIInstance *sInstance,char __near *szName);
+//#line "profile.c" 168
+extern int __cdecl hmiINIClose(struct _tagINIInstance *sInstance);
+//#line "profile.c" 224
+extern int __cdecl hmiINILocateSection(struct _tagINIInstance *sInstance,char __near *szName);
+//#line "profile.c" 339
+extern int __cdecl hmiINILocateItem(struct _tagINIInstance *sInstance,char __near *szItem);
+//#line "profile.c" 469
+extern int __cdecl hmiINIGetDecimal(struct _tagINIInstance *sInstance,unsigned int *wValue);
+//#line "profile.c" 571
+extern int __cdecl hmiINIGetString(struct _tagINIInstance *sInstance,char __near *pString,unsigned int wMaxLength);
+//#line "profile.c" 647
+extern int __cdecl hmiINIGetRawString(struct _tagINIInstance *sInstance,char __near *pString,unsigned int wMaxLength);
+//#line "profile.c" 716
+extern int __cdecl hmiINIWriteDecimal(struct _tagINIInstance *sInstance,unsigned int wValue);
+//#line "profile.c" 837
+extern int __cdecl hmiINIWriteString(struct _tagINIInstance *sInstance,char __near *szString);
+//#line "profile.c" 936
+extern int __cdecl hmiINIGetQuery(struct _tagINIInstance *sInstance,char __near *szItem);
+//#line "profile.c" 980
+extern int __cdecl hmiINIGetItemDecimal(struct _tagINIInstance *sInstance,char __near *szItem,unsigned int *wValue);
+//#line "profile.c" 1021
+extern int __cdecl hmiINIGetItemString(struct _tagINIInstance *sInstance,char __near *szItem,char __near *pString,unsigned int wMaxSize);
+//#line "profile.c" 1060
+extern int __cdecl hmiINIWriteQuery(struct _tagINIInstance *sInstance,char __near *szItem,int wState);
+//#line "profile.c" 1107
+extern int __cdecl hmiINIDeleteItem(struct _tagINIInstance *sInstance,char __near *szItem);
+//#line "profile.c" 1162
+extern int __cdecl hmiINIDeleteSection(struct _tagINIInstance *sInstance,char __near *szSection);
+//#line "profile.c" 1222
+extern int __cdecl hmiINIAddSection(struct _tagINIInstance *sInstance,char __near *szSection);
+//#line "profile.c" 1306
+extern int __cdecl hmiINIAddItemString(struct _tagINIInstance *sInstance,char __near *szItem,char __near *szString,unsigned int wJustify);
+//#line "profile.c" 1399
+extern int __cdecl hmiINIAddItemDecimal(struct _tagINIInstance *sInstance,char __near *szItem,unsigned int wValue,unsigned int wJustify,unsigned int wRadix);
+//#line "profile.c" 1508
+extern unsigned int hmiINIHex2Decimal(char __near *szHexValue);
+//#line "profile.c" 1551
+extern unsigned int hmiINIGetHexIndex(unsigned char bValue);

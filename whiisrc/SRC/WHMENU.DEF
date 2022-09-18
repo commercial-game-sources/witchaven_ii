@@ -1,0 +1,82 @@
+//#line "whmenu.c" 122
+extern void loadsavetoscreen(void );
+//#line "whmenu.c" 134
+extern void menutoscreen(void );
+//#line "whmenu.c" 144
+extern void menutoscreenblank(void );
+//#line "whmenu.c" 150
+extern void itemtoscreen(long x,long y,short dapic,signed char dashade,char dapal);
+//#line "whmenu.c" 172
+extern void fancyfont(long x,long y,short tilenum,char *string,char pal);
+//#line "whmenu.c" 212
+extern void fancyfontscreen(long x,long y,short tilenum,char *string);
+//#line "whmenu.c" 250
+extern int menuscreen(struct player *plr);
+//#line "whmenu.c" 460
+extern void help(void );
+//#line "whmenu.c" 535
+extern void loadsave(struct player *plr);
+//#line "whmenu.c" 659
+extern void quit(void );
+//#line "whmenu.c" 735
+extern void thedifficulty(void );
+//#line "whmenu.c" 1003
+extern void startnewgame(struct player *plr);
+//#line "whmenu.c" 1072
+extern void loadgame(struct player *plr);
+//#line "whmenu.c" 1180
+extern void savegame(struct player *plr);
+//#line "whmenu.c" 1270
+extern void savegametext(int select);
+//#line "whmenu.c" 1517
+extern int savedgamename(int gn);
+//#line "whmenu.c" 1615
+extern int savedgamedat(int gn);
+//#line "whmenu.c" 1663
+extern void loadplayerstuff(void );
+//#line "whmenu.c" 1737
+extern void optionspage(void );
+//#line "whmenu.c" 1876
+extern void thesound(void );
+//#line "whmenu.c" 2221
+extern void thecontrols(void );
+//#line "whmenu.c" 2412
+extern int __far cehndlr(unsigned int deverr,unsigned int errcode,unsigned int __far *devhdr);
+//#line "whmenu.c" 2420
+extern void installcrerrhndlr(void );
+//#line "whmenu.c" 2460
+extern void screenfx(struct player *plr);
+//#line "whmenu.c" 2493
+extern void clearpal(void );
+//#line "whmenu.c" 2509
+extern void getpalette(char *palette);
+//#line "whmenu.c" 2519
+extern void fillpalette(int red,int green,int blue);
+//#line "whmenu.c" 2535
+extern void fadeout(int start,int end,int red,int green,int blue,int steps);
+//#line "whmenu.c" 2575
+extern void fadein(int start,int end,int steps);
+//#line "whmenu.c" 2612
+extern void fog1(void );
+//#line "whmenu.c" 2626
+extern void fog2(void );
+//#line "whmenu.c" 2636
+extern void makefxlookups(void );
+//#line "whmenu.c" 2677
+extern void initpaletteshifts(void );
+//#line "whmenu.c" 2742
+extern void startgreenflash(int greentime);
+//#line "whmenu.c" 2757
+extern void startblueflash(int bluetime);
+//#line "whmenu.c" 2773
+extern void startredflash(int damage);
+//#line "whmenu.c" 2789
+extern void startwhiteflash(int bonus);
+//#line "whmenu.c" 2806
+extern void updatepaletteshifts(void );
+//#line "whmenu.c" 2895
+extern void finishpaletteshifts(void );
+//#line "whmenu.c" 2920
+extern void TEMPSND(void );
+//#line "whmenu.c" 2926
+extern void cleanup(void );

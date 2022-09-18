@@ -1,0 +1,4 @@
+//#line "cdrom.c" 432
+extern int ismscdex(void );
+//#line "cdrom.c" 447
+extern int cd_init(void );

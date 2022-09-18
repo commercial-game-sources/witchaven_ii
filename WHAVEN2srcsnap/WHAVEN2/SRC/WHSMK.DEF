@@ -1,0 +1,10 @@
+//#line "whsmk.c" 70
+extern void *__pascal radmalloc(unsigned long numbytes);
+//#line "whsmk.c" 94
+extern void __pascal radfree(void *ptr);
+//#line "whsmk.c" 107
+extern void smkinit(unsigned int digifh);
+//#line "whsmk.c" 121
+extern void texttobuf(char *buffer,short x,short y,short fontstart,char *text,short pal);
+//#line "whsmk.c" 177
+extern void smkplayseq(int s);

@@ -1,0 +1,38 @@
+//#line "whfx.c" 83
+extern void panningfx(void );
+//#line "whfx.c" 165
+extern void revolvefx(void );
+//#line "whfx.c" 223
+extern void bobbingsector(void );
+//#line "whfx.c" 244
+extern void teleporter(void );
+//#line "whfx.c" 328
+extern void warp(long *x,long *y,long *z,short *daang,short *dasector);
+//#line "whfx.c" 364
+extern void warpsprite(short spritenum);
+//#line "whfx.c" 386
+extern void ironbars(void );
+//#line "whfx.c" 455
+extern void sectorsounds(void );
+//#line "whfx.c" 503
+extern void scary(void );
+//#line "whfx.c" 527
+extern void dofx(void );
+//#line "whfx.c" 546
+extern void weaponpowerup(void );
+//#line "whfx.c" 611
+extern void thunder(void );
+//#line "whfx.c" 735
+extern void thesplash(void );
+//#line "whfx.c" 765
+extern void makeasplash(int picnum,struct player *plr);
+//#line "whfx.c" 807
+extern void makemonstersplash(int picnum,int i);
+//#line "whfx.c" 865
+extern void bats(short k);
+//#line "whfx.c" 895
+extern void warpfxsprite(int s);
+//#line "whfx.c" 947
+extern void makesparks(short i,int type);
+//#line "whfx.c" 982
+extern void shards(short i,short type);

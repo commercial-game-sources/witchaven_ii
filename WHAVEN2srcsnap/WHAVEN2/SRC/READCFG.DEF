@@ -1,0 +1,38 @@
+//#line "readcfg.c" 153
+extern int readHMICFGFile(char __near *szName,char __near *szDIGIName,char __near *szMIDIName);
+//#line "readcfg.c" 205
+extern void readKeyboardConfig(struct _tagINIInstance *sInstance);
+//#line "readcfg.c" 226
+extern void writeKeyboardConfig(struct _tagINIInstance *sInstance);
+//#line "readcfg.c" 249
+extern void readMouseConfig(struct _tagINIInstance *sInstance);
+//#line "readcfg.c" 270
+extern void writeMouseConfig(struct _tagINIInstance *sInstance);
+//#line "readcfg.c" 294
+extern void readJoystickConfig(struct _tagINIInstance *sInstance);
+//#line "readcfg.c" 316
+extern void writeJoystickConfig(struct _tagINIInstance *sInstance);
+//#line "readcfg.c" 340
+extern void readAvengerConfig(struct _tagINIInstance *sInstance);
+//#line "readcfg.c" 362
+extern void writeAvengerConfig(struct _tagINIInstance *sInstance);
+//#line "readcfg.c" 386
+extern void readGamepadConfig(struct _tagINIInstance *sInstance);
+//#line "readcfg.c" 408
+extern void writeGamepadConfig(struct _tagINIInstance *sInstance);
+//#line "readcfg.c" 432
+extern void readWingmanConfig(struct _tagINIInstance *sInstance);
+//#line "readcfg.c" 454
+extern void writeWingmanConfig(struct _tagINIInstance *sInstance);
+//#line "readcfg.c" 478
+extern void readVFX1Config(struct _tagINIInstance *sInstance);
+//#line "readcfg.c" 500
+extern void writeVFX1Config(struct _tagINIInstance *sInstance);
+//#line "readcfg.c" 523
+extern void readVideoMode(struct _tagINIInstance *sInstance);
+//#line "readcfg.c" 544
+extern void writeVideoMode(struct _tagINIInstance *sInstance);
+//#line "readcfg.c" 559
+extern void readControlConfigs(int readhmi);
+//#line "readcfg.c" 599
+extern void writeControlConfigs(void );

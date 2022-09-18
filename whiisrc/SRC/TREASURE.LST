@@ -1,0 +1,52 @@
+
+  treasure[]    displaybuf              affected                picnum
+  ==========    ======================  ======================  ==============
+        0       DIAMOND RING            armor=200               DIAMONDRING
+                                        armortype=3
+                                        score+=25
+
+        1       SHADOW AMULET           shadowtime=7500         SHADOWAMULET
+                                        score+=50
+
+        2       GLASS SKULL             score=2300-280500       GLASSSKULL
+                                        score+=10
+
+        3       ANKH                    health=250              AHNK
+                                        score+=100
+
+        4       Water walk scepter      score+=10               BLUESCEPTER
+
+        5       Fire walk scepter       score+=10               YELLOWSCEPTER
+
+        6       ADAMANTINE RING         score+=30               ADAMANTINERING
+
+        7       ONYX RING               score+=35               ONYXRING
+                *protection from missile
+
+        8       PENTAGRAM               score+=100              PENTAGRAM
+
+        9       CRYSTAL STAFF           health=250              CRYSTALSTAFF
+                                        armor=300
+                                        armortype=2
+                                        score+=150
+
+        10      AMULET OF THE MIST      invisibletime=3200      AMULETOFTHEMIST
+                                        score+=75
+
+        11      HORNED SKULL            score+=750              HORNEDSKULL
+
+        12      Ornate Horn             vampiretime=7200        THEHORN
+                                        score+=350
+                * gain hp when kill something
+
+        13      SAPPHIRE RING           armortype=3             SAPHIRERING
+                                        score+=25
+
+        14      BRASS KEY               score+=15               BRASSKEY
+
+        15      BLACK KEY               score+=15               BLACKKEY
+
+        16      GLASS KEY               score+=15               GLASSKEY
+
+        17      IVORY KEY               score+=15               IVORYKEY
+

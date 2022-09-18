@@ -1,0 +1,19 @@
+
+  orb[]         displaybuf              affected                picnum
+  ==========    ======================  ======================  ==============
+        0       Scare Scroll                                    SCROLLSCARE
+
+        1       Night Vision Scroll                             SCROLLNIGHT
+
+        2       Freeze Scroll                                   SCROLLFREEZE
+
+        3       Magic Arrow Scroll                              SCROLLMAGIC
+
+        4       Open Door Scroll                                SCROLLOPEN
+
+        5       Fly Scroll                                      SCROLLFLY
+
+        6       Fireball Scroll                                 SCROLLFIREBALL
+
+        7       Nuke Scroll                                     SCROLLNUKE
+

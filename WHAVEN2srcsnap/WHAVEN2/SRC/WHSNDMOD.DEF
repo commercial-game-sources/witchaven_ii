@@ -1,0 +1,48 @@
+//#line "whsndmod.c" 69
+extern int loadlevelsongs(int which);
+//#line "whsndmod.c" 119
+extern void __far sosMIDISongCallback(unsigned int hSong);
+//#line "whsndmod.c" 137
+extern int startsong(unsigned int which);
+//#line "whsndmod.c" 169
+extern void dolevelmusic(int which);
+//#line "whsndmod.c" 200
+extern void SND_MenuMusic(void );
+//#line "whsndmod.c" 218
+extern void SND_InitSOSTimer(void );
+//#line "whsndmod.c" 233
+extern void __loadds __far timerevent(void );
+//#line "whsndmod.c" 251
+extern void __far __cdecl sosDIGISampleCallback(unsigned int wDriverHandle,unsigned int wCallSource,unsigned int hSample);
+//#line "whsndmod.c" 279
+extern void SND_SetupTables(void );
+//#line "whsndmod.c" 344
+extern void SND_LoadMidiIns(void );
+//#line "whsndmod.c" 403
+extern void SND_DoBuffers(void );
+//#line "whsndmod.c" 416
+extern void SND_UnDoBuffers(void );
+//#line "whsndmod.c" 443
+extern void SND_Startup(void );
+//#line "whsndmod.c" 555
+extern void SND_Shutdown(void );
+//#line "whsndmod.c" 618
+extern void SND_StopMusic(void );
+//#line "whsndmod.c" 642
+extern void SND_Mixer(unsigned int wSource,unsigned int wVolume);
+//#line "whsndmod.c" 661
+extern int SND_PlaySound(unsigned int sound,long x,long y,unsigned int Pan,unsigned int loopcount);
+//#line "whsndmod.c" 759
+extern unsigned int SND_Sound(unsigned int sound);
+//#line "whsndmod.c" 770
+extern void SND_CheckLoops(void );
+//#line "whsndmod.c" 806
+extern void SND_StopLoop(unsigned int which);
+//#line "whsndmod.c" 826
+extern void SND_DIGIFLush(void );
+//#line "whsndmod.c" 851
+extern void SND_UpdateSoundLoc(unsigned int which,unsigned int Volume,unsigned int Pan);
+//#line "whsndmod.c" 870
+extern void playsound_loc(int soundnum,long xplc,long yplc);
+//#line "whsndmod.c" 880
+extern void updatesound_loc(void );

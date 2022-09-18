@@ -1,0 +1,6 @@
+//#line "whani.c" 53
+extern void animateobjs(struct player *plr);
+//#line "whani.c" 3655
+extern int findapatrolpoint(short i);
+//#line "whani.c" 3710
+extern void checkhit(short i,short j);
